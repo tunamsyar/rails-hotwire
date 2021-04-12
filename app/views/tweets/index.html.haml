@@ -1,0 +1,13 @@
+%h1 Listing tweets
+= turbo_stream_from "tweets"
+
+= turbo_frame_tag "tweet_form" do
+  = render 'form', tweet: @tweet
+
+
+= turbo_frame_tag "tweets" do
+  = render @tweets
+
+%br
+
+= link_to 'New Tweet', new_tweet_path

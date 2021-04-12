@@ -1,0 +1,7 @@
+%h1 Editing tweet
+
+= turbo_frame_tag dom_id(@tweet) do
+  .card.card-body
+    = render 'form', tweet: @tweet
+    = link_to 'CANCEL', @tweet
+

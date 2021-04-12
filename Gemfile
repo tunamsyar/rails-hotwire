@@ -6,7 +6,7 @@ ruby '2.7.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'rails', '6.1.3'
-
+gem 'turbo-rails'
 gem 'hotwire-rails', '~> 0.1.3'
 gem 'sass-rails', '>= 6'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

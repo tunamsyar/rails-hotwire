@@ -263,6 +263,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  turbo-rails
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
